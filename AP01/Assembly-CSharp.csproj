@@ -71,7 +71,6 @@
      <None Include="Assets\Lesson04\Task\Task02\L04_T02.shader" />
      <None Include="Assets\Lesson05\Shader\L05_BlinnPhong_SF.shader" />
      <None Include="Assets\Lesson02\Task\Task01\L02_T01.shader" />
-     <None Include="Assets\Lesson07\Shader\L07_Shadow_SF.shader" />
      <None Include="Assets\Lesson04\Task\Task01\L04_T01.shader" />
      <None Include="Assets\Lesson05\Shader\L05_Phong_SF.shader" />
      <None Include="Assets\Lesson07\Shader\L07_3ColAmbient.shader" />

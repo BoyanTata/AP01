@@ -25,6 +25,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - _EnvDownCol: {r: 0.5377358, g: 0.50923175, b: 0.24096651, a: 1}
-    - _EnvSideCol: {r: 0.5288581, g: 0.764151, b: 0.49381453, a: 1}
-    - _EnvUpCol: {r: 0.75, g: 0.9, b: 1, a: 1}
+    - _EnvDownCol: {r: 0.7830189, g: 0.43651167, b: 0.35826808, a: 1}
+    - _EnvSideCol: {r: 0.7647059, g: 0.6385747, b: 0.49411765, a: 1}
+    - _EnvUpCol: {r: 1, g: 0.91323596, b: 0.72156864, a: 1}
