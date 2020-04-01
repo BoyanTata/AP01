@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L06_T02
+  m_Shader: {fileID: 4800000, guid: 4384a6fba326ada4189a431b60c95e18, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: a93c4bca73d21c44bb49238adbc74340, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 3.32, y: 1.29}
+    - _node_1918:
+        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_7034:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_7998:
+        m_Texture: {fileID: 2800000, guid: 6144d1bb071edd44e80f036dfee64bd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _12354563: 1
+    - _FresnalRange: 1.67
+    - _MaskRange: 0.626
+    - _MaskTile: 1
+    - _SpecPow1: 2.9
+    - _SpecPow2: 34.9
+    - _SpecularStrength: 1.2
+    - _SubsurfaceScatter: 0
+    - _node_1432: 0.604
+    - _node_3285: 0
+    - _node_3285_copy: 0
+    - _node_3285_copy_copy: 0
+    - _node_6116: 0.1
+    - _node_9178: 37.82937
+    - _node_9178_copy: 0
+    - _node_9178_copy_copy: 3.1
+    - _node_9178_copy_copy_copy: 10
+    - _node_9257: 0
+    m_Colors:
+    - _ColorRough: {r: 1, g: 0.60990745, b: 0, a: 1}
+    - _ColorSmooth: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+    - _node_5503: {r: 0.18836774, g: 0.7830189, b: 0.59798235, a: 1}
+    - _node_5503_copy: {r: 0.1481844, g: 0.8490566, b: 0.4323132, a: 1}
+    - _node_7274: {r: 0.3962264, g: 0.1548238, b: 0.1027946, a: 1}

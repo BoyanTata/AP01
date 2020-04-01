@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L06_T01
+  m_Shader: {fileID: 4800000, guid: d968c3f9323d6aa4abe775373c37fa8b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: f994f0f17907616449661bf6e5f84563, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSS_TEX:
+        m_Texture: {fileID: 2800000, guid: bfd94c8788d6f694aa5dfc649e3052f4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9794:
+        m_Texture: {fileID: 2800000, guid: 0283395d3c8aabf45b7efba3f9ae3510, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Colorchange: 1
+    - _Cutoff: 0.5
+    - _SSS_intensity: 0.865
+    - _SpecularPower: 76
+    - _SpecularPower1: 101
+    - _SpecularPower2: 0
+    - _node_2057: 1
+    - _node_2482: 0.1
+    - _node_2773: 0.09
+    - _node_3085: 0
+    - _node_5028: 0
+    - _node_5506: 0.13
+    - _node_5726: 0.01
+    m_Colors:
+    - _Color2: {r: 0.84705883, g: 1, b: 0.21176471, a: 1}
+    - _color: {r: 0.09411765, g: 0.29411766, b: 0.12443052, a: 1}
+    - _node_2687: {r: 0.83443797, g: 1, b: 0.2117647, a: 1}
+    - _node_4066: {r: 1, g: 1, b: 1, a: 1}
+    - _node_8021: {r: 0.82667726, g: 1, b: 0.75, a: 1}

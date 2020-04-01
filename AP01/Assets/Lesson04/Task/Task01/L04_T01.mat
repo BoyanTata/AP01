@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L04_T01
+  m_Shader: {fileID: 4800000, guid: ede95c5a2dbb859478aae8e69e530e0f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HatchTex:
+        m_Texture: {fileID: 2800000, guid: c901eddde7f642b42b7ba9405a9d14cf, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _node_1295:
+        m_Texture: {fileID: 2800000, guid: 46cf9cf40fdbfa148ad1772b715dcdef, type: 3}
+        m_Scale: {x: 1, y: 100}
+        m_Offset: {x: 0, y: 0}
+    - _node_3106:
+        m_Texture: {fileID: 2800000, guid: 46cf9cf40fdbfa148ad1772b715dcdef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4712:
+        m_Texture: {fileID: 2800000, guid: c901eddde7f642b42b7ba9405a9d14cf, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _node_4712_copy:
+        m_Texture: {fileID: 2800000, guid: 46cf9cf40fdbfa148ad1772b715dcdef, type: 3}
+        m_Scale: {x: 1, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _node_534:
+        m_Texture: {fileID: 2800000, guid: 1c8375a82636f68459edf6090021d152, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _patterrn:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - __DispersionInt: 0.606
+    - _node_280: 0.851
+    m_Colors:
+    - _DarkCol: {r: 0.3207547, g: 0, b: 0.28146565, a: 1}
+    - _DispersionCol: {r: 0, g: 0.62061816, b: 0.9622642, a: 1}
+    - _LightCol: {r: 0.9075275, g: 1, b: 0.6084906, a: 1}
+    - _OutlineCol: {r: 0.2735849, g: 0.13034, b: 0.13034, a: 1}
+    - _node_2273: {r: 1, g: 1, b: 1, a: 1}
+    - _node_5143: {r: 0.8962264, g: 0.48616055, b: 0.48616055, a: 1}
+    - _node_5769: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _node_6572: {r: 0, g: 0, b: 0, a: 1}
+    - _node_6972: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _node_8062: {r: 0.17021184, g: 0.8018868, b: 0.5364771, a: 1}

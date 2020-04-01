@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L07_OldSchoolPlus_SF
+  m_Shader: {fileID: 4800000, guid: b257cfc61e4eb6e43b25dbfac7f8e037, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Occlusion:
+        m_Texture: {fileID: 2800000, guid: eabfa8d88fe328f4b952fb81f530c4a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4175:
+        m_Texture: {fileID: 2800000, guid: 540c7a8546d9b5942abae5ed94cf87e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_5840:
+        m_Texture: {fileID: 2800000, guid: eabfa8d88fe328f4b952fb81f530c4a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EnvInt: 0.476
+    - _SpecPow: 20
+    - _SpecularPower: 12.5
+    - _node_4431: 0.201
+    m_Colors:
+    - _BaseCol: {r: 1, g: 0.46381426, b: 0.24056602, a: 1}
+    - _EnvDownCol: {r: 0.5188679, g: 0.47869846, b: 0.2716714, a: 1}
+    - _EnvSideCol: {r: 0.6598654, g: 0.8301887, b: 0.6383055, a: 1}
+    - _EnvUpCol: {r: 0.6084906, g: 0.8646579, b: 1, a: 1}
+    - _LightCol: {r: 1, g: 0.8307174, b: 0.4198113, a: 1}
+    - _SpecCol: {r: 1, g: 0.8920207, b: 0.6084906, a: 1}
+    - _node_4419: {r: 0.764151, g: 0.21479905, b: 0.06127627, a: 1}
+    - _node_4419_copy: {r: 0.8962264, g: 0.76266164, b: 0.32551616, a: 1}
+    - _node_7783: {r: 0.7688679, g: 0.93083954, b: 1, a: 1}
+    - _node_7783_copy: {r: 0.7735849, g: 0.68297213, b: 0.5582948, a: 1}
+    - _node_7783_copy_copy: {r: 0.8455822, g: 0.9150943, b: 0.8417141, a: 1}
+    - _node_9114: {r: 0.09732112, g: 0.13495927, b: 0.254717, a: 1}

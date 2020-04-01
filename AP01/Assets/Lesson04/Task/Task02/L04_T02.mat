@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L04_T02
+  m_Shader: {fileID: 4800000, guid: 4b5293ba97723da4fb06c944159ccbd4, type: 3}
+  m_ShaderKeywords: _TEX_COL_ONOFF_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NosieTex:
+        m_Texture: {fileID: 2800000, guid: eba78e8ee5fb7fe49bebb29cca877f79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _onoff_tex:
+        m_Texture: {fileID: 2800000, guid: 04e171dc976c53b42b77a052653c49ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wenli_mask_tex:
+        m_Texture: {fileID: 2800000, guid: eba78e8ee5fb7fe49bebb29cca877f79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _NoiseInt: -0.49
+    - _NoisePower: -0.5
+    - _NoiseTiling11: 4
+    - _NoiseTiling22: 2
+    - _SpecPow: 7.6
+    - _SpecularPow: 10
+    - _hilight_exp: 1.8
+    - _shadow_bright: 0.56
+    - _tex_col_onoff: 1
+    - _wenli_mask: 0.545
+    - _wenli_uv_a: 4.33
+    - _wenli_uv_b: 2.24
+    m_Colors:
+    - _DarkCol: {r: 0.1282485, g: 0.20754719, b: 0.1582118, a: 1}
+    - _LightCol: {r: 0.31471002, g: 0.6320754, b: 0.25938946, a: 1}
+    - _SpecCol: {r: 1, g: 0.8601528, b: 0.4481132, a: 1}
+    - _body_col: {r: 0, g: 1, b: 0.125, a: 1}
+    - _hilight_col: {r: 0.78400004, g: 1, b: 0, a: 1}
+    - _onoff_col: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}

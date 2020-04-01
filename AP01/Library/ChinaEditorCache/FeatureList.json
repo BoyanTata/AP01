@@ -1,0 +1,17 @@
+{
+    "featureList": [
+        {
+            "id":"1",
+            "buildIn":false,
+            "needPro":false,
+            "isOpend":true,
+            "menuItemOfSetting":"",
+            "featureName":"Anti-Cheat Expert",
+            "featureDescribe":"代码与数据加密工具",
+            "featureShortDoc":"由Anti-Cheat Expert团队与Unity中国技术支持团队联合开发。\n它针对Unity-Mono、Unity-IL2CPP运行时提供加密保护服务。同时提供文件级、方法级、指令级等多种等级的加密方式。\n\n使用方法：\n通过Project Settings > Player > Security Settings，将Enable Security Build启用，即可在编译时自动接入安全方案。\n\nAnti-Cheat Expert团队是全球领先游戏安全方案与服务提供者。\n致力于为端游、手游、主机等全平台游戏中的防破解、反作弊等各类游戏安全问题，提供全面和专业的解决方案。",
+            "remoteFeatureImage":"2018.4/ChinaFeature.Tencent.png",
+            "documentURL":"",
+            "supportedTargets":"Android,iOS"
+        }
+    ]
+}
