@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Lesson07/Scene/L07.unity
+- path: Assets/Showcase/ShowAll.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
