@@ -1,4 +1,4 @@
-﻿Shader "AP1/L07/3ColAmbient" {
+﻿Shader "AP01/L07/3ColAmbient" {
     Properties {
         _Occlusion  ("环境遮挡图", 2d)      = "white" {}
         _EnvUpCol   ("朝上环境色", color)   = (1.0, 1.0, 1.0, 1.0)

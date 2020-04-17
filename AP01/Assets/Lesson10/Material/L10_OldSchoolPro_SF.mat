@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L10_OldSchoolPro_SF
+  m_Shader: {fileID: 4800000, guid: 42db8337b598b3e40addfc9603f70c8b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: d51cd34544212c54fad1d1ed41ff1d59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 59aaad64e6b7adb4c8ca3e5d54fe5fad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Occlusion:
+        m_Texture: {fileID: 2800000, guid: eabfa8d88fe328f4b952fb81f530c4a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CubemapMip: 1.67
+    - _EnvInt: 0.461
+    - _EnvSpecInt: 0.36
+    - _FresnelPow: 0.45
+    - _SpecPow: 6
+    m_Colors:
+    - _BaseCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EnvDownCol: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+    - _EnvSideCol: {r: 1, g: 0.9547143, b: 0.8349056, a: 1}
+    - _EnvUpCol: {r: 0.8726415, g: 0.97004986, b: 1, a: 1}
+    - _LightCol: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}

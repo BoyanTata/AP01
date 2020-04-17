@@ -1,4 +1,4 @@
-﻿Shader "AP1/L07/Shadow" {
+﻿Shader "AP01/L07/Shadow" {
     Properties {
     }
     SubShader {

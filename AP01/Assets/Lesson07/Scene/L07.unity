@@ -128,6 +128,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1119511724142616033, guid: 4e7b158e6fbbd75458c3fc212f73696c,
+        type: 3}
+      propertyPath: m_Name
+      value: OldSchoolPlus_SF
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982606397372516904, guid: 4e7b158e6fbbd75458c3fc212f73696c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982606397372516907, guid: 4e7b158e6fbbd75458c3fc212f73696c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'OldSchoolPlus_SF
+
+
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 8982606397427875482, guid: 4e7b158e6fbbd75458c3fc212f73696c,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L08_T01
+  m_Shader: {fileID: 4800000, guid: e361c2b22e857574ba8564d1eba67ecd, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SpecRamp:
+        m_Texture: {fileID: 2800000, guid: 17249e2856fe1cb45b23019fc73f2e06, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _gaoguangyanse:
+        m_Texture: {fileID: 2800000, guid: 17249e2856fe1cb45b23019fc73f2e06, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FresnelPow: 5
+    - _SpecPow: 1
+    - _gaoguangfanwei: 1
+    - _lunkuoguangfanwei: 5.1
+    - _node_2202: 1
+    - _node_4734: 3.4
+    - _node_7795: 1
+    m_Colors:
+    - _FresnelCol: {r: 0.7505785, g: 0.9463587, b: 0.9528302, a: 1}
+    - _MainCol: {r: 0.1792453, g: 0.1581079, b: 0.1593877, a: 1}
+    - _lunkuoguang: {r: 0.7505785, g: 0.9463587, b: 0.9528302, a: 1}
+    - _maincolor: {r: 0, g: 0, b: 0, a: 1}

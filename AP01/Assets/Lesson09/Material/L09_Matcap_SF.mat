@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L09_Matcap_SF
+  m_Shader: {fileID: 4800000, guid: ab8c3e5807ab80942af4df89ad7e7c25, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Matcap:
+        m_Texture: {fileID: 2800000, guid: 66bf34bcf57668342969ef28d81e8982, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: f2db422f013c37b4e9d26b6605513ab8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3516:
+        m_Texture: {fileID: 2800000, guid: c256b26dec5020a4d94e41d7158236ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4963:
+        m_Texture: {fileID: 2800000, guid: f2db422f013c37b4e9d26b6605513ab8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EnvSpecInt: 0.96
+    - _FresnelPow: 0
+    - _node_7640: 1.4
+    m_Colors:
+    - _Color: {r: 0.07843138, g: 0.3921569, b: 0.7843137, a: 1}
+    - _node_6753: {r: 0, g: 0, b: 0, a: 1}
