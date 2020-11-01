@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L19_AnimGhost
+  m_Shader: {fileID: 4800000, guid: 4a1758fbd3db6d840bceb24bec5a4e0c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1ffa09dd2472baa449817f99d66386e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Opacity: 1
+    - _ShakeInt: 20
+    - _ShakeSpeed: 1
+    - _SwingXInt: 1
+    - _SwingXSpeed: 1
+    - _SwingYInt: 1
+    - _SwingYSpeed: 1
+    - _WaveInt: 1
+    - _WaveSpeed: 1
+    m_Colors:
+    - _ScaleParams: {r: 0.2, g: 0.2, b: 4.5, a: 0}
+    - _ShakeYParams: {r: 30, g: 0.15, b: 0.08, a: 0}
+    - _SwingXParams: {r: 0.2, g: 0.15, b: 0.4, a: 0}
+    - _SwingYParams: {r: 0.3, g: 0.3, b: 0.06, a: 0}
+    - _SwingZParams: {r: 0.2, g: 0.3, b: 0.4, a: 0}
+    - _Translation: {r: 0.43, g: 0.81, b: 23.02, a: 0}
