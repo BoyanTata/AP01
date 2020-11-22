@@ -89,18 +89,6 @@
                     TRANSFER_VERTEX_TO_FRAGMENT(o)                  // 投影相关
                 return o;                                           // 返回输出结构
             }
-
-            // 3Col环境色方法
-            float3 TriColAmbient (float3 n, float3 uCol, float3 sCol, float3 dCol) {
-                float uMask = max(0.0, n.g);            // 获取朝上部分遮罩
-                float dMask = max(0.0, -n.g);           // 获取朝下部分遮罩
-                float sMask = 1.0 - uMask - dMask;      // 获取侧面部分遮罩
-                float3 envCol = uCol * uMask +
-                                sCol * sMask +
-                                dCol * dMask;           // 混合环境色
-                return envCol;
-            }
-
             // 输出结构>>>像素
             float4 frag(VertexOutput i) : COLOR {
                 // 准备向量
@@ -111,18 +99,15 @@
                 float3 vrDirWS = reflect(-vDirWS, nDirWS);
                 float3 lDirWS = _WorldSpaceLightPos0.xyz;
                 float3 lrDirWS = reflect(-lDirWS, nDirWS);
-
                 // 准备点积结果
                 float ndotl = dot(nDirWS, lDirWS);
                 float vdotr = dot(vDirWS, lrDirWS);
                 float vdotn = dot(vDirWS, nDirWS);
-
                 // 采样纹理
                 float4 var_MainTex = tex2D(_MainTex, i.uv0);
                 float4 var_SpecTex = tex2D(_SpecTex, i.uv0);
                 float3 var_EmitTex = tex2D(_EmitTex, i.uv0).rgb;
                 float3 var_Cubemap = texCUBElod(_Cubemap, float4(vrDirWS, lerp(_CubemapMip, 0.0, var_SpecTex.a))).rgb;
-
                 // 光照模型(直接光照部分)
                 float3 baseCol = var_MainTex.rgb * _MainCol;
                 float lambert = max(0.0, ndotl);
@@ -131,19 +116,13 @@
                 float phong = pow(max(0.0, vdotr), specPow);
                 float shadow = LIGHT_ATTENUATION(i);
                 float3 dirLighting = (baseCol * lambert + specCol * phong) * _LightColor0 * shadow;
-
                 // 光照模型(环境光照部分)
-
-                // 使用3Col环境色方法
                 float3 envCol = TriColAmbient(nDirWS, _EnvUpCol, _EnvSideCol, _EnvDownCol);
-
                 float fresnel = pow(max(0.0, 1.0 - vdotn), _FresnelPow);    // 菲涅尔
                 float occlusion = var_MainTex.a;
                 float3 envLighting = (baseCol * envCol * _EnvDiffInt + var_Cubemap * fresnel * _EnvSpecInt * var_SpecTex.a) * occlusion;
-
                 // 光照模型(自发光部分)
                 float3 emission = var_EmitTex * _EmitInt * (sin(_Time.z) * 0.5 + 0.5);
-
                 // 返回结果
                 float3 finalRGB = dirLighting + envLighting + emission;
                 return float4(finalRGB, 1.0);
