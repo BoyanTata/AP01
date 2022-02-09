@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3192712055943007796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3192712055943007798}
+  - component: {fileID: 3192712055943007799}
+  m_Layer: 0
+  m_Name: L24_LightingController
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: 23bc8a2034ebb9f44bfda30af403a9a2, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3192712055943007798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3192712055943007796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3192712055943007799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3192712055943007796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c876faa5201e5934da3bb57cd63fe098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  metalDarken: 0.1
+  mainLightCol: {r: 0.09549664, g: 0.31324887, b: 0.6981132, a: 1}
+  specParams: {x: 5, y: 0.2, z: 25, w: 2.6}
+  skylightInt: 0.6
+  reflectParams: {x: 7, y: 0, z: 0.3, w: 0.8}
+  fresnelPow: 5
+  emissionCol: {r: 0.7075472, g: 0.4223438, b: 0.23696157, a: 1}
+  haha:
+    sh[ 0]: 0.0044745035
+    sh[ 1]: 0.002846691
+    sh[ 2]: 0.0010302229
+    sh[ 3]: -0.0015944219
+    sh[ 4]: -0.0009426028
+    sh[ 5]: 0.00042305965
+    sh[ 6]: 0.00007731952
+    sh[ 7]: -0.0008426159
+    sh[ 8]: 0.0004450831
+    sh[ 9]: 0.017458381
+    sh[10]: 0.01222309
+    sh[11]: 0.00543209
+    sh[12]: -0.008365936
+    sh[13]: -0.005206204
+    sh[14]: 0.0025552684
+    sh[15]: 0.00016928668
+    sh[16]: -0.0046272157
+    sh[17]: 0.0017648528
+    sh[18]: 0.04005278
+    sh[19]: 0.030432321
+    sh[20]: 0.013647156
+    sh[21]: -0.0213056
+    sh[22]: -0.0138324
+    sh[23]: 0.0068029137
+    sh[24]: 0.00024875428
+    sh[25]: -0.01117377
+    sh[26]: 0.0039541586

@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: L23_Building_02
+  m_Shader: {fileID: 4800000, guid: 9ab86043312ba5a4984d80c78bde3f61, type: 3}
+  m_ShaderKeywords: _EMITLIGHTON_ON _ENVREFLECTON_ON _MAINLIGHTGION_ON _MAINLIGHTON_ON
+    _SKYLIGHTON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: e7937f1ae922fc844976d0a1da5cb570, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvCube:
+        m_Texture: {fileID: 8900000, guid: fcea3a0154bad7443a72f8c34667519a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lightmap:
+        m_Texture: {fileID: 2800000, guid: 3618dfd03e0c81649ad4f89c4f50555f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b2c54144d5fbb4a14b95d5e2ec07dbf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: aad1b8ed79665134baf2226622f6e188, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormTex:
+        m_Texture: {fileID: 2800000, guid: 5e704b54cc0cc4015add600ce739fb2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OccTex:
+        m_Texture: {fileID: 2800000, guid: 0155e7c553ce645b9a03c0441f234ed4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkyCube:
+        m_Texture: {fileID: 8900000, guid: b44a932e32c72cc4f9c26adee71520d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EmitLightOn: 1
+    - _EnvReflectOn: 1
+    - _FresnelPow: 1.77
+    - _GIInt: 1.04
+    - _GIPow: 1.58
+    - _MainLightGIOn: 1
+    - _MainLightOn: 1
+    - _MetalDarken: -1.33
+    - _SkyLightInt: 0.33
+    - _SkyLightOn: 1
+    m_Colors:
+    - _EmissionCol: {r: 0.8153885, g: 0.9919159, b: 1.6055588, a: 1}
+    - _EnvReflectParams: {r: 4.3, g: -0.11, b: 1.17, a: 0.72}
+    - _GICol: {r: 1, g: 0.55500644, b: 0.043137252, a: 1}
+    - _HalfShadowCol: {r: 2.3245068, g: 0.74906534, b: 0, a: 1}
+    - _MainLightCol: {r: 3.2111173, g: 2.4377592, b: 1.1096008, a: 1}
+    - _SkyCol: {r: 0, g: 0.17780644, b: 0.3207547, a: 1}
+    - _SpecParams: {r: -106.82, g: -0.82, b: 193.7, a: 1.2}
